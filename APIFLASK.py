@@ -22,7 +22,7 @@ def predict():
         img = Image.open(file)  # Menggunakan Image.open() untuk membuka gambar
 
         # Mengubah gambar menjadi array numpy
-        img = img.resize((224, 224))  # Mengubah ukuran gambar menjadi (224, 224)
+        img = img.resize((150, 150))  # Mengubah ukuran gambar menjadi (224, 224)
         img_array = np.array(img)
         img_array = np.expand_dims(img_array, axis=0)
         img_array = img_array / 255.0  # Normalisasi
