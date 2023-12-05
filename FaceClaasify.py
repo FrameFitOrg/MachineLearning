@@ -117,7 +117,7 @@ model.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy', metr
 history = model.fit(train_images, train_labels, batch_size=128, epochs=100, validation_split = 0.2)
 # ------------------------------------------------------------
 
-model.save("faceshape_model.h5")
+
 
 def plot_accuracy_loss(history):
     """
@@ -236,4 +236,4 @@ print(classification_report(test_labels, pred_labels, target_names=class_names))
 # ----------------------------------------------------------------------
 # ============================ TAMAT ===================================
 
-
+model.save("faceshape_model.h5")

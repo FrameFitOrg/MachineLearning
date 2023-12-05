@@ -10,8 +10,30 @@ __pycache__/
 # C extensions
 *.so
 
+# extends
+faceectraction.ipynb
+.faceectraction.ipynb
+FaceClassify2.ipynb
+.FaceClassify2.ipynb
+requirements.txt
+mp.py
+FaceClassify - Copy.ipynb
+FaceClassifyKfoldStratified.ipynb
+testapi.py
+
+# Model
+faceshape_model.h5
+faceshape.h5
+.faceshape_model.h5
+.faceshape.h5
+
+
+
 # Dataset
 FaceShape Dataset/ 
+FaceData/ 
+FrameFit/ 
+.FrameFit/ 
 
 # Distribution / packaging
 .Python
@@ -129,7 +151,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
-myenv/
+newenv/
 venv/
 ENV/
 env.bak/
